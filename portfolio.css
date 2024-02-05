@@ -70,3 +70,7 @@ textarea{
     width: 20%;
     background-color: #B3CC78;
 }
+body{
+    margin: auto;
+    width: 80%;
+}
