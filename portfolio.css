@@ -1,0 +1,72 @@
+.html{
+    width: 30%;
+    background-color: grey;
+  
+}
+.navbar{
+    background-color:#606653 ;
+    color: black;
+}
+h2{
+    color: #606653;
+}
+.about{
+    background-color: #B3CC78;
+}
+.skill{
+    background-color: #606653;
+}
+
+
+
+.skill1{
+    text-align: right;
+    color: white;
+    padding-right: 5px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+.firstsk{
+    width: 85%;
+    background-color: #2D331F;
+}
+p{
+    margin-bottom: 2px;
+}
+.css{
+    width: 80%;
+    background-color: #606653;
+}
+.java{
+    width: 70%;
+    background-color: #D0FF63;
+}
+.python{
+    width: 60%;
+    background-color: #B3CC78;
+}
+.contact{
+    background-color: #606653;
+}
+.contact input{
+    width: 50%;
+   padding: 10px;
+   margin-bottom: 10px;
+   font-weight: bold;
+}
+.contact input:hover{
+    border-color: #2D331F;
+}
+
+
+textarea{
+    padding: 10px;
+    margin-bottom: 10px;
+    
+}
+.contact input[type="submit"]{
+    border: none;
+    padding: 10px 20px;
+    width: 20%;
+    background-color: #B3CC78;
+}
