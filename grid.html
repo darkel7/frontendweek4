@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grid layout</title>
+    <style>
+        main{
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            grid-template-rows: repeat(8,200px);
+            grid-template-areas: 
+            "a a a b"
+            "a a a b"
+            "c c c c"
+            "c c c c"
+            "d d e e"
+            "d d e e"
+            "h h g g"
+            "h h g g"
+            ;
+            gap: 40px ;
+        }
+        div:nth-of-type(1){grid-area: a; background-color:dimgray;border-radius: 60px;}
+        div:nth-of-type(2){grid-area: b; background-color:di dimgrey; border-radius: 60px;}
+        div:nth-of-type(3){grid-area: c; background-color:dimgray; border-radius: 70px;}
+        div:nth-of-type(4){grid-area: d; background-color:dimgray ; border-radius: 60px;}
+        div:nth-of-type(5){grid-area: e; background-color: dimgray; border-radius: 60px;}
+        div:nth-of-type(6){grid-area: f; background-color: dimgray; border-radius: 60px;}
+        div:nth-of-type(7){grid-area: g; background-color:dimgray; border-radius: 60px;}
+        div:nth-of-type(8){grid-area: h; background-color: dimgray; border-radius: 60px;}
+        div{
+            border: 2px solid;
+        }
+        img{
+            float: right;
+            border-radius: 60px;
+            
+        }
+        div:nth-of-type(1){
+            align-items: center;
+            text-size-adjust: 30px;
+            display: flex;
+            justify-content: center;
+            font-size: larger;
+            font-style: initial;
+            background-image: linear-gradient(90deg,grey 33.3%,grey 33.3%,grey 66.6%, black 66.6% );
+            
+        }
+        div:nth-of-type(4){
+            padding: 10px;
+            color: white;
+        }
+        ul{
+            margin: 1.5em;
+            font-size: larger;
+        }
+        body{
+            background-color: gray;
+            
+        }
+
+        ul li{
+            padding-bottom: 90px ;
+            width: 40%;
+            font-style: bold;
+            margin: auto;
+        }
+        .abt{
+            text-align: center;
+            font-size: larger;
+        }
+        .me{
+            color: white;
+        }
+        p{
+            font-size: 1.1em;
+        }
+        div:nth-of-type(3){
+            font-style: bold;
+            margin: auto;
+        }
+        nav ul{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            list-style: none;
+            
+        }
+        
+    </style>
+</head>
+<body>
+   <nav>
+    <ul class="nav">
+        <li><a href="">ABOUT ME</a></li>
+        <li><a href="">ASSIGNMENT</a></li>
+        <li><a href="">SKILLS</a></li>
+        <li><a href="">CONTACT</a></li>
+    </ul>
+   </nav>
+    <main>
+        <div class="me">
+            <h1>HI I'M OGUAMANAM DARLINGTON</h1>
+        </div>
+        <div><img src="./darkel.JPG" alt="" width="327px"></div>
+        <div class="abt">
+            <h2>ABOUT ME</h2>
+            <p>A civil engineer and a front end web developer with both 3 years and 1 month respectively</p>
+            <p>a graudate of imo state university and univelcity tech school</p>
+            <h2>INTEREST</h2>
+            <ul>
+                <li>TRAVELLING <img src="./travel.png" alt="" width="70px"></li>
+                <li>SPORTS <img src="./sports-removebg-preview.png" alt="" width="70px"></li>
+            </ul>
+        </div>
+        <div>
+            <h2>SKILLS</h2>
+            <ul>
+                <li>HTML<img src="./java.png" alt="" width="60px"></li><br>
+                
+                <li>CSS<img src="./css.png" alt="" width="60px"></li><br>
+                
+                <li>JAVASCRIPT<img src="./javascrip.png" alt="" width="55px"></li>
+            </ul>
+        </div>
+        <div></div>
+        <div>6</div>
+        <div>7</div>
+        <div>8</div>
+    </main>
+    
+</body>
+</html>
